@@ -1,0 +1,38 @@
+# Gestão de Clientes
+
+Gestão de clientes é um software desenvolvido em react com backend em PHP.
+
+## Instalação
+
+Você precisará ter o Docker e o Docker Compose instalados em sua máquina para mais informações acesse o link:
+
+Docker:
+
+https://www.docker.com/get-started/
+
+Docker compose:
+https://docs.docker.com/compose/
+
+Você também precisará da versão 20.2.0 do Node JS em sua máquina.
+
+Mais informações: https://nodejs.org/
+
+Após Clonar esse repositório e instalar o docker, docker-compose e node você precisará entrar na pasta raiz do projeto e rodar o seguinte código:
+
+```bash
+  docker-compose up -d --build 
+```
+Para rodar os containers, banco e backend da aplicação;
+
+Em seguida abra outro terminal na pasta raíz entre na pasta frontend digitando o comando.
+
+```bash
+  cd frontend
+```
+
+E execute o comando.
+
+```bash
+  npm start
+```
+Para executar o frontend da aplicação, pronto agora você poderá executar o software.
